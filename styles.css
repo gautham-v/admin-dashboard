@@ -49,6 +49,7 @@
 
 .sidebar img {
     justify-self: center;
+    filter: invert(100%);
 }
 
 .sidebar span {
