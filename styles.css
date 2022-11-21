@@ -152,7 +152,7 @@
     background-color: #eff6ff;
     display: grid;
     grid-template-columns: 1fr 250px;
-    grid-template-rows: 300px 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 20px;
 }
 
@@ -185,6 +185,7 @@
 .announcements-card div p:nth-child(2){
     margin-top: 2px;
     font-size: 11px;
+    color: #64748b;
 }
 
 .announcements-card > :not(:last-child){
@@ -193,6 +194,29 @@
 
 .trending-card{
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: start;
+}
+
+.trending-card div {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.trending-card div img {
+    grid-row: 1 / 3;
+    align-self: center;
+    padding-left: 4px;
+}
+
+.trending-card div p:nth-child(2){
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.trending-card div p:nth-child(3){
+    margin-top: 2px;
+    color: #64748b
 }
 
 h4 {
