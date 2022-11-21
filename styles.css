@@ -14,6 +14,46 @@
     grid-row: 1 / 3;
     background-color: #3b82f6;
     color: white;
+    display: grid;
+    grid-template-rows: 60px 300px 1fr;
+}
+
+.site-logo {
+    color: white;
+    display: grid;
+    grid-template-columns: 60px auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.site-logo > p {
+    justify-self: start;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.first-nav-section{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.second-nav-section{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-template-rows: 40px 40px 40px;
+    align-items: center;
+}
+
+.sidebar img {
+    justify-self: center;
+}
+
+.sidebar span {
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .sidebar ul li {
@@ -43,6 +83,7 @@
     background-color: #e2e8f0;
     border: 1px solid #e2e8f0;
     border-radius: 10px;
+    justify-self: stretch;
 }
 
 .header-top > #bell {
