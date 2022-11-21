@@ -104,6 +104,7 @@
     grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
     align-items: center;
     align-content: center;
+    /* box-shadow: 0 4px 2px -2px gray; */
 }
 
 .header-main > #avatar-main {
@@ -151,7 +152,7 @@
     background-color: #eff6ff;
     display: grid;
     grid-template-columns: 1fr 250px;
-    grid-template-rows: 500px 1fr;
+    grid-template-rows: 300px 1fr;
     gap: 20px;
 }
 
@@ -164,7 +165,7 @@
     padding-right: 20px;
 }
 
-.announcements-card{
+.announcements-card, .trending-card{
     display: grid;
     background-color: white;
     grid-template-rows: 1fr 1fr 1fr;
@@ -188,6 +189,10 @@
 
 .announcements-card > :not(:last-child){
     border-bottom: 1px solid #94a3b8;
+}
+
+.trending-card{
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 h4 {
