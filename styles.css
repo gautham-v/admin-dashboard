@@ -179,6 +179,7 @@
     display: grid;
     grid-template-rows: 20px 70px 20px;
     grid-auto-flow: row;
+    border-left: 6px solid #eab308;
 }
 
 .project-card p:first-child{
@@ -189,6 +190,7 @@
 
 .project-card p:nth-child(2){
     margin: 0;
+    color: #64748b;
 }
 
 .card-icons{
